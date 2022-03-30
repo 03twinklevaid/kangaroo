@@ -1,0 +1,78 @@
+@import "variables.scss";
+
+.py-10 {
+  padding: 10px 0;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 0 16px;
+}
+
+.ant-input-affix-wrapper {
+  background-color: #fa902c;
+  color: $white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: none;
+
+  &:hover,
+  &-focused {
+    background-color: #ffad60;
+    box-shadow: none;
+  }
+
+  .ant-input-prefix {
+    color: inherit;
+    font-size: inherit;
+  }
+
+  .ant-input {
+    color: inherit;
+    background-color: inherit;
+    margin-left: 10px;
+    transition: inherit;
+
+    &::placeholder {
+      color: inherit;
+    }
+  }
+}
+
+.ant-btn-white {
+  height: 48px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  color: $primary-color;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ant-typography-white {
+  color: $white;
+}
+
+.ant-typography-orange {
+  color: $primary-color;
+}
+
+.ant-tabs.ant-tabs-bottom {
+  .ant-tabs-content-no-animated {
+    height: calc(100vh - 84px);
+  }
+
+  .ant-tabs-nav {
+    .ant-tabs-tab {
+      padding: 14px 12px;
+
+      &.ant-tabs-tab-active {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: $primary-color;
+  }
+}
