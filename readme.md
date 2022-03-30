@@ -2,6 +2,10 @@
 
 ## Commands
 
+### `npm install`
+
+Install dependencies
+
 ### `npm run serve`
 
 Runs the app in the development mode.<br />
